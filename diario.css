@@ -1,0 +1,29 @@
+div {border-bottom: 1px dotted red
+}
+body {
+	font-family: Times New Roman, Times, serif;
+}
+
+.azul {
+	color:#8AA2E3;
+}
+
+
+.peque{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+
+}
+
+.fecha {
+	color:#A9A9A9;
+}
+
+#sub{
+	text-decoration: underline;
+	text-decoration-color: #A9A9A9;
+}
+
+#size{
+	font-size: 30px;
+}

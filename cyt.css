@@ -1,0 +1,21 @@
+
+body {
+	background-color: pink;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.hombre{ color: #E0115F;
+
+}
+
+.mujer {
+	color: green;
+}
+
+.mayor {
+	font-size: 22px;
+}
+
+.menor {
+	font-size: 12px;
+}

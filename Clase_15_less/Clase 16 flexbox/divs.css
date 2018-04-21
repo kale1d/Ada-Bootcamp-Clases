@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-container {
+	display: flex;
+	width: 800px;
+	flex-wrap: wrap;
+}
+
+.cajita {
+	width: 600px;
+	height: 400px;
+	background-color: #A783FF;
+}

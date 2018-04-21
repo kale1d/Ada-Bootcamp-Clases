@@ -1,0 +1,10 @@
+.container {
+	width: 600px;
+	height: 2000px;
+	background-color: blue;
+}
+
+.container img {
+	width: 100%;
+	height: 100%;
+}

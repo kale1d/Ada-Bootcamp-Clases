@@ -1,0 +1,29 @@
+body {
+	background-color: pink;
+	font-size: 0;
+	width: 100%;
+	margin: 0;
+	padding:0;
+	
+}
+div {
+	padding: 2.5%;
+	width: 40%;
+	height: 200px;
+}
+
+.contenedor {
+	width: 100%;
+}
+#uno {
+		margin-left: 2.5%;
+		display: inline-block;
+		background-color: #D8FFD6;
+
+}
+#dos {
+	margin-right: 2.5%;
+	display: inline-block;
+	background-color: #D6F3FF;
+
+}

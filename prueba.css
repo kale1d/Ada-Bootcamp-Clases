@@ -1,0 +1,25 @@
+body {
+	background-color: #e3cdf9;
+	   
+}
+#red { 
+	color:#d40c0c;
+	}
+
+.colores{
+	color:#5143e5;
+		font-family: Impact, charcoal, sans-serif;
+		font-size: 50px;
+	}
+p{
+	color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 70px;
+}
+ul {
+	color: #E0115F;
+	font-family:Comic Sans MS, cursive, serif;
+	font-size: 50px;
+  list-style-type: none;
+
+}

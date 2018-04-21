@@ -1,0 +1,19 @@
+.container{
+	width:300px;
+	height: 200px;
+	margin-top: 10px;
+	background-color: lightblue;
+
+}
+
+.container.primero {
+	background-color: lightpink;
+	position: relative;
+	bottom: -20px;
+	right: 20px;
+
+}
+
+.container.tercero {
+	background-color: lightgrey;
+}

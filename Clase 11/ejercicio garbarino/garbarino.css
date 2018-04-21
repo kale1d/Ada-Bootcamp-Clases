@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: orange;
+}
+.nav-container {
+	max-width: 1024px;
+	min-width: 1024px;
+	margin:auto;
+}
+.logo{
+	margin-top: 15px;
+	display: inline-block;
+	float: left;
+}
+.input {
+	margin-top: 20px;
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+}
+.input input {
+	height: 20px
+	width: 500px;
+	border-radius: 3px;
+	border: 1px solid #e9e9e9;
+	padding-left: 10px;
+}
+.banner {
+	max-width: 1024px;
+	min-width: 1024px;
+	margin:auto;
+	height: 365px;
+}
+.tres-imagenes-contenedor {
+	max-width: 1024px;
+	min-width: 1024px;
+	margin:auto;
+	height: 380px;
+	background-color: orange;
+	text-align: center;
+}
+.imagen-contenedor {
+	width: 25%;
+	height: 80%;
+	margin: 3.16667%;
+	background-color: white;
+	display: inline-block;
+}
+.imagen {
+	width: 100%;
+}
+.imagenes-en-x {
+	max-width: 1024px;
+	min-width: 1024px;
+	margin:auto;
+	height: 580px;
+	background-color: blue;
+	text-align: center;
+}
+.vertical {
+	width: 25%;
+	height: 80%;
+	margin: 3.16667%;
+	background-color: white;
+	display: inline-block;
+}
+.paris {
+	width: 100%
+}
+.dubai {
+	width: 100%
+}
+.egipto {
+	width: 100%
+}
+.japon {
+	width: 100%
+}
+.tailandia {
+	width: 100%
+}
+
+.imagenes-en-4 {
+	display: none;
+}
+
+.imagenes-en-x {
+	display: block;
+}
+
+@media (max-width: 1000px){
+
+.nav-container {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.logo {
+  float: right;
+}
+
+.input {
+  float: right;
+  margin-right: 30px;
+}
+
+.banner {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto; 
+}
+
+.tres-imagenes-contenedor {
+	min-width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0
+}
+
+.imagen-contenedor {
+	display: inline;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+.paris {
+	max-width: 100%;
+
+	height: auto;
+}
+
+.horizontal {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.horizontal-imagen {
+	width: 24%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.imagenes-en-x {
+	display: none;
+}
+
+.imagenes-en-4 {
+	display: block;
+}
+}

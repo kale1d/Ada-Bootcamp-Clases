@@ -1,0 +1,49 @@
+@bgcolorppal: red;
+@bgcolor: blue;
+@ancho: 600px;
+@alt: 200px;
+@distancia: 10px;
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+.slider {
+	width: @ancho;
+	height: @alt;
+	background-color: @bgcolorppal;
+}
+
+.imga {
+	width: @ancho/ 2 - @distancia;
+	height: @alt;
+	background-color: @bgcolorppal;
+	display: inline-block;
+	margin-top: @distancia ;
+	margin-right: @distancia ;
+}
+
+.imgb {
+	width: @ancho/ 2 - @distancia / 2;
+	height: @alt;
+	background-color: @bgcolor;
+	display: inline-block;
+}
+
+.txta {
+	width: @ancho;
+	height: @alt;
+	background-color: @bgcolor;
+	color: @bgcolorppal;
+	margin-top: @distancia / 2;
+
+}
+
+.txtb {
+width: @ancho;
+height: @alt;
+background-color: @bgcolorppal;
+color: @bgcolor;
+ margin-top: @distancia;
+}

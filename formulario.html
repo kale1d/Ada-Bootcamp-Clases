@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORM</title>
+</head>
+<body>
+	<H1>Untitled Page</H1>
+
+		<form method="get" action="/hola.php">
+			<br> <small>Nombre </small>
+			<br/>
+			<br/>
+			<input type="text" name="nombre">
+			<br/>
+			<br/><small>Apellido</small>
+			<br/>
+			<br/>
+			<input type="text" name="Apellido">
+			<br/>
+			<br><small>Mail</small>
+			<br/>
+			<br/>
+			<input type="text" name="Mail">
+			<br/>
+			<br/>
+			<br/><small> Género </small>
+			<br/>
+			<br/>
+			<font face="comic sans MS"><small>
+			<input type="radio" name="Genero" value="Femenino">
+			<label for="Femenino">Femenino</label>
+			<input type="radio" name="Genero" value="Masculino">
+			<label for="Masculino">Masculino</label>
+			<br/>
+			<br/>
+			<br/>Nacionalidad
+			<select>
+				<option value="1"> Argentina </option>
+				<option value="2"> Chilena </option>
+				<option value="3"> Brasilera</option>
+			</select>
+			<br/>
+			<br/>
+			<br/>Temas que le interesan 
+			<br/>
+			<br/>
+			<input type="checkbox" name="cbox1" value="Infraestructura"> 
+			<label for="Infraestructura">Infraestructura</label>
+			<br/>
+			<br/>
+			<input type="checkbox" name="cbox2" value="Programacion web"> 
+			<label for="programacion web">Programación Web</label>
+			<br/>
+			<br/>
+			<input type="checkbox" name="cbox3" id="cbox3" value="Programacion mobile"> 
+			<label for="cbox3">Programación Mobile </label>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<input type="checkbox" name="cbox4" value="Terms"> 
+			<label for="cbox4">Acepta los términos y condiciones</label>
+			<br/>
+			<br/>
+			<br/>
+			</font>
+			</small>
+			<input type="submit" value="Aceptar"></input>
+			<button>Cancelar</button>
+		</form>
+
+</body>
+</html>

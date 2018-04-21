@@ -1,0 +1,27 @@
+
+input {
+	width: 100px;
+	height: 100px;
+	color: white;
+	text-align: center;
+}
+.resultado{
+	
+	background-color: #FF6356;
+	
+}
+
+::placeholder {
+color: white;
+opacity: 1;
+}
+
+	
+	
+.green {
+	background-color: #99FF8C;
+}
+
+.blue {
+	background-color: #5890FF;
+}
